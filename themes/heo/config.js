@@ -18,35 +18,40 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'JoeChen.top',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_1: '记录生活',
+  HEO_HERO_TITLE_2: '记录成长',
+  HEO_HERO_TITLE_3: 'Blog.JoeChen.top',
+  HEO_HERO_TITLE_4: '学会记录',
+  HEO_HERO_TITLE_5: '学会分享，交流带来更好的发展',
   HEO_HERO_TITLE_LINK: 'https://blog.joechen.top',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '技术分享', url: '/tag/技术分享' },
-  HEO_HERO_CATEGORY_3: { title: '学习笔记', url: '/tag/学习笔记' },
+  HEO_HERO_CATEGORY_2: { title: '技术分享', url: '/category/技术分享' },
+  HEO_HERO_CATEGORY_3: { title: '学习笔记', url: '/category/学习笔记' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  // HEO_HERO_RECOMMEND_POST_TAG: '推荐',
-  HEO_HERO_RECOMMEND_POST_TAG: '', // 使用最近更新文章
+  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
+  // HEO_INFOCARD_GREETINGS: [
+  //   '你好！我是',
+  //   '🔍 分享与热心帮助',
+  //   '🤝 生物技术学习者',
+  //   '🏃 脚踏实地行动派',
+  //   '🏠 智能家居小能手',
+  //   '🤖️ 数码科技爱好者',
+  //   '🧱 团队小组发动机'
+  // ],
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
     '🤝 生物技术学习者',
     '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🤖️ 数码科技爱好者'
   ],
 
   // 个人资料底部按钮
@@ -55,7 +60,7 @@ const CONFIG = {
   HEO_INFO_CARD_URL2: 'https://github.com/Joechen2me',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_URL3: 'https://chat.joechen.top',
-  HEO_INFO_CARD_TEXT3: '我的OpenWebUI站点',
+  HEO_INFO_CARD_ICON3: 'fa-duotone fa-solid fa-robot',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
